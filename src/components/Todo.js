@@ -1,4 +1,7 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 class Todo extends React.Component {
     constructor(props){
@@ -11,7 +14,14 @@ class Todo extends React.Component {
 
     render(){
         return(
-            <h1>Hello!</h1>
+            <Container>
+                <Row>
+
+                    <Col>
+                        <h1>hello!</h1>
+                    </Col>
+                </Row>
+            </Container>
         );
     }
 }
