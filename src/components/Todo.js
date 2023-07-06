@@ -7,7 +7,7 @@ class Todo extends React.Component {
     constructor(props){
         super(props);
         this.state={
-            message: '',
+            task: '',
             checked: false
         };
     }
@@ -16,7 +16,6 @@ class Todo extends React.Component {
         return(
             <Container>
                 <Row>
-
                     <Col>
                         <h1>hello!</h1>
                     </Col>
