@@ -17,7 +17,7 @@ class Todo extends React.Component {
     render(){
         return(
             <Container fluid className='todo-container'>
-                <Row md={4}>
+                <Row md={2}>
                     <Col>1 of 2</Col>
                     <Col>2 of 2</Col>
                 </Row>
