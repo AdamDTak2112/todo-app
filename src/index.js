@@ -9,7 +9,7 @@ import {
 } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+//TODO Create routes for nav
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
