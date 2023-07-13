@@ -9,7 +9,7 @@ class Todo extends React.Component {
     constructor(props){
         super(props);
         this.state={
-            task: 'take out the trash',
+            task: this.props.task,
             done: false,
         };
         this.hideDoneTask = this.hideDoneTask.bind(this);

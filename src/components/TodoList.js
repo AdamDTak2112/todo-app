@@ -5,14 +5,14 @@ class TodoList extends React.Component{
     constructor(props){
         super(props);
         this.state={
-            list: [],
+            list: [Todo],
             
         };
     }
 
     render(){
         return (
-            <h1>Hello World!</h1>
+            <Todo task="newtask" />
         );
     }
 }
